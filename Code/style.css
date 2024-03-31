@@ -136,9 +136,40 @@ body {
 }
 
 .banner {
-    position: relative;
+    background-image: url("../resources/ramadan-bg.9993cd128e58168ef958.jpg");
+    background-size: cover;
     width: 100%;
-    overflow: hidden;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px 0px;
+}
+
+.scroll {
+    display: flex;
+    gap: 50px;
+}
+
+.scroll div {
+    width: 22px;
+    height: 22px;
+    border-radius: 100%;
+    color: white;
+    border: 3px solid white;
+}
+
+#active {
+    background-color: white;
+}
+
+#simo-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
 }
 
 #banner-img{
